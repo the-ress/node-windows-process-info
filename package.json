@@ -1,0 +1,25 @@
+{
+  "name": "windows-process-info",
+  "version": "0.1.0",
+  "description": "Gets process name, parent ID, executable path and start time",
+  "main": "index.js",
+  "os": [
+    "win32"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-ress/node-windows-process-info.git"
+  },
+  "author": "Tereza Tomcova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-ress/node-windows-process-info/issues"
+  },
+  "homepage": "https://github.com/the-ress/node-windows-process-info#readme",
+  "dependencies": {
+    "nan": "^2.6.2"
+  }
+}
